@@ -3,13 +3,177 @@
 }
 
 body{
-	background: limegreen;
+	font-size: 0;
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #faf9f5;
 }
 
-$txt-color: maroon;
-
-h2{
-	color: $txt-color;
-	border-bottom: 4px solid $txt-color;
+.header{
+	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	background-color: white;
 }
 
+.header > * {
+	display: inline-block;
+}
+
+.logo-searchbar{
+	width: 79%;
+}
+
+.profile-icons{
+	width: 20%;
+}
+
+.logo{
+	width: 10%;
+	padding-bottom: 8px;
+	margin-right: 10px;
+}
+
+.searchbar{
+	width: 25%;
+	padding: 5px 5px;
+}
+
+.search-button{
+	padding: 7px 7px;
+	width: 8%;
+	background-color: #3cb1cb;
+	color: white;
+	border: none;
+}
+
+.fa{
+	width: 5%;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-right: 50px;
+	color: #666666;
+	display: inline-block;
+}
+
+.navigation{
+	background-color: white;
+	border-top: 1px solid #bcbcbc;
+	border-bottom: 1px solid #bcbcbc;
+	padding-top: 10px;
+}
+
+.navigation > *{
+	font-size: 14px;
+	list-style: none;
+
+}
+
+.navigation li{
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	color: #666666;
+}
+
+.items-catalog{
+	font-size: 12px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thumbnail{
+	height: 400px;
+}
+
+.thumbnail:hover{
+	cursor: pointer;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.shopname{
+	width: 89%;
+	color: #aaa;
+}
+
+.price{
+	width: 10%;
+	color: #81a75b;
+}
+
+.product-description{
+	font-size: 16px;
+	margin-top: 50px;
+	width: 75%
+}
+
+.pic-and-desc-container{
+	margin-top: 50px;
+	font-size: 16px;
+}
+
+.pic-and-desc-container div{
+	display: inline-block;
+}
+
+.main-item-pic{
+	width: 55%;
+}
+
+
+.main-item-pic img{
+	width: 100%;
+}
+
+.description{
+	width: 40%;
+	padding-left: 20px;
+	vertical-align: top;
+}
+
+.price-askquestions{
+	width: 100%;
+}
+
+.price-askquestions div{
+	display: inline-block;
+	// width: 50%;
+}
+
+.price-askquestions h4{
+	width: 50%;
+	margin-right: 150px;
+}
+
+.question-button{
+	text-align: center;
+	font-size: 12px;
+	font-weight: lighter;
+	padding: 8px 8px;
+	width: 35%;
+	border: 1px solid black;
+}
+
+.add-button{
+	border-radius: 5px;
+	background-color: #3cb1cb;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 8px 0px;
+}
+
+.buy-button{
+	border-radius: 5px;
+	margin-top: 15px;
+	background-color: #86c651;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 8px 0px;
+}

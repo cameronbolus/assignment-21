@@ -2,13 +2,49 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>App.js</title>
+		<title>Etsy.js</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./css/styles.css"></link>
 
 	</head>
 	<body>
 		<div id="app-container">
-			<h2>Party All the Time!</h2>
+			<header class="header">
+				<form class="logo-searchbar">
+					<a href="#"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Etsy_logo_lg_rgb.png" alt=""></a>
+					<!-- <form class="search-form"> -->
+						<input class="searchbar" type="text" name="" data-search="search" placeholder="Search for items or shops">
+						<!-- <input class="search-button"  type="button" name="" value="Search"> -->
+						<button class="search-button" type="submit" name="button">Search</button>
+					<!-- </form> -->
+				</form>
+				<div class="profile-icons">
+					<i class="fa fa-home" aria-hidden="true"></i>
+					<i class="fa fa-heart" aria-hidden="true"></i>
+					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+				</div>
+			</header>
+			<nav class="navigation">
+				<ul>
+					<li>Accessories</li>
+					<li>Jewelry</li>
+					<li>Furniture</li>
+					<li>Craft Supplies</li>
+					<li>Weddings</li>
+					<li>Housewares</li>
+					<li>Vintage</li>
+				</ul>
+			</nav>
+			<div class="site-content">
+				<div class="filter-section">
+
+				</div>
+				<div class="items-catalog">
+
+				</div>
+			</div>
 		</div>
 		<script src="./js/app.js"></script>
 	</body>
